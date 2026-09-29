@@ -162,10 +162,10 @@
     padding: 10px;
     min-width: 420px;
   }
-  /* The stage takes the full row width. The viewBox is constant, so the height follows the
-     width and the page does not jump as sstables come and go. The diagram scales up with the
-     frame, which also makes its text bigger. */
-  #stage { width: 100%; height: auto; display: block; }
+  /* The stage takes 90% of the row width, centred. The viewBox is constant, so the height
+     follows the width and the page does not jump as sstables come and go. The diagram scales
+     with the frame, which also sets the size of its text. */
+  #stage { width: 90%; height: auto; display: block; margin: 0 auto; }
 
   /* The stats panel sits under the stage. Each section is a fold, closed by default. */
   .side-card {
